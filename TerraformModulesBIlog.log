@@ -1,0 +1,211 @@
+2018-08-16 17:04:11,200 - INFO - modulesSurvery_sql - module:GoogleCloudPlatform/managed-instance-group/google, today_version:[]
+2018-08-16 17:04:11,225 - INFO - modulesSurvery_sql - module:hashicorp/vault/google, today_version:[]
+2018-08-16 17:04:11,632 - INFO - modulesSurvery_sql - module:cloudposse/codebuild/aws, today_version:[]
+2018-08-16 17:04:12,249 - INFO - modulesSurvery_sql - module:btower-labz/btlabz-vpc-base/aws, today_version:[]
+2018-08-16 17:04:12,530 - INFO - modulesSurvery_sql - module:traveloka/autoscaling/aws, today_version:[]
+2018-08-16 17:04:12,780 - INFO - modulesSurvery_sql - module:manicminer/acm-certificate/aws, today_version:[]
+2018-08-16 17:04:13,065 - INFO - modulesSurvery_sql - module:trussworks/ecs-cluster/aws, today_version:[]
+2018-08-16 17:04:13,156 - INFO - modulesSurvery_sql - module:104corp/web/aws, today_version:[]
+2018-08-16 17:04:13,190 - INFO - modulesSurvery_sql - module:trussworks/acm-cert/aws, today_version:[]
+2018-08-16 17:04:13,195 - INFO - modulesSurvery_sql - module:trussworks/alb-web-containers/aws, today_version:[]
+2018-08-16 17:04:13,201 - INFO - modulesSurvery_sql - module:trussworks/ecs-service/aws, today_version:[]
+2018-08-16 17:04:13,264 - INFO - modulesSurvery_sql - module:dcos-terraform/bootstrap/aws, today_version:[]
+2018-08-16 17:04:13,318 - INFO - modulesSurvery_sql - module:Azure/loadbalancer/azurerm, today_version:[]
+2018-08-16 17:04:13,363 - INFO - modulesSurvery_sql - module:Azure/vnet/azurerm, today_version:[]
+2018-08-16 17:04:13,393 - INFO - modulesSurvery_sql - module:Azure/network-security-group/azurerm, today_version:[]
+2018-08-16 17:04:13,556 - INFO - modulesSurvery_sql - module:dcos-terraform/dcos-install-bootstrap-remote-exec/null, today_version:[]
+2018-08-16 17:04:13,564 - INFO - modulesSurvery_sql - module:diceone/hcloud/module, today_version:[]
+2018-08-16 17:04:13,601 - INFO - modulesSurvery_sql - module:terraform-openstack-modules/instance/openstack, today_version:[]
+2018-08-16 17:04:13,606 - INFO - modulesSurvery_sql - module:terraform-openstack-modules/volume/openstack, today_version:[]
+2018-08-16 17:04:13,762 - INFO - modulesSurvery_sql - module:dcos-terraform/dcos-core/template, today_version:[]
+2018-08-16 17:24:03,970 - ERROR - modulesSurvery_sql - Exception Logged
+Traceback (most recent call last):
+  File "c:\Users\t-zuhu\Desktop\data code\webjob\modulesSurvery_sql.py", line 47, in get_results
+    response = urlopen(req,timeout=30).read()
+  File "C:\Python36\lib\urllib\request.py", line 223, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python36\lib\urllib\request.py", line 526, in open
+    response = self._open(req, data)
+  File "C:\Python36\lib\urllib\request.py", line 544, in _open
+    '_open', req)
+  File "C:\Python36\lib\urllib\request.py", line 504, in _call_chain
+    result = func(*args)
+  File "C:\Python36\lib\urllib\request.py", line 1361, in https_open
+    context=self._context, check_hostname=self._check_hostname)
+  File "C:\Python36\lib\urllib\request.py", line 1321, in do_open
+    r = h.getresponse()
+  File "C:\Python36\lib\http\client.py", line 1331, in getresponse
+    response.begin()
+  File "C:\Python36\lib\http\client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "C:\Python36\lib\http\client.py", line 266, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+2018-08-16 17:24:03,984 - INFO - modulesSurvery_sql - CAN NOT get published https://registry.terraform.io/v1/modules/terraform-aws-modules/vpc/aws/1.10.0
+2018-08-16 18:04:17,904 - ERROR - modulesSurvery_sql - Exception Logged
+Traceback (most recent call last):
+  File "c:\Users\t-zuhu\Desktop\data code\webjob\modulesSurvery_sql.py", line 47, in get_results
+    response = urlopen(req,timeout=30).read()
+  File "C:\Python36\lib\urllib\request.py", line 223, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python36\lib\urllib\request.py", line 526, in open
+    response = self._open(req, data)
+  File "C:\Python36\lib\urllib\request.py", line 544, in _open
+    '_open', req)
+  File "C:\Python36\lib\urllib\request.py", line 504, in _call_chain
+    result = func(*args)
+  File "C:\Python36\lib\urllib\request.py", line 1361, in https_open
+    context=self._context, check_hostname=self._check_hostname)
+  File "C:\Python36\lib\urllib\request.py", line 1321, in do_open
+    r = h.getresponse()
+  File "C:\Python36\lib\http\client.py", line 1331, in getresponse
+    response.begin()
+  File "C:\Python36\lib\http\client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "C:\Python36\lib\http\client.py", line 258, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Python36\lib\socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Python36\lib\ssl.py", line 1009, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Python36\lib\ssl.py", line 871, in read
+    return self._sslobj.read(len, buffer)
+  File "C:\Python36\lib\ssl.py", line 631, in read
+    v = self._sslobj.read(len, buffer)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2018-08-16 18:04:17,929 - INFO - modulesSurvery_sql - CANNOT get Versions https://registry.terraform.io/v1/modules/Azure/computegroup/azurerm/versions
+2018-08-16 18:20:45,752 - ERROR - modulesSurvery_sql - Exception Logged
+Traceback (most recent call last):
+  File "c:\Users\t-zuhu\Desktop\data code\webjob\modulesSurvery_sql.py", line 47, in get_results
+    response = urlopen(req,timeout=30).read()
+  File "C:\Python36\lib\urllib\request.py", line 223, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python36\lib\urllib\request.py", line 526, in open
+    response = self._open(req, data)
+  File "C:\Python36\lib\urllib\request.py", line 544, in _open
+    '_open', req)
+  File "C:\Python36\lib\urllib\request.py", line 504, in _call_chain
+    result = func(*args)
+  File "C:\Python36\lib\urllib\request.py", line 1361, in https_open
+    context=self._context, check_hostname=self._check_hostname)
+  File "C:\Python36\lib\urllib\request.py", line 1321, in do_open
+    r = h.getresponse()
+  File "C:\Python36\lib\http\client.py", line 1331, in getresponse
+    response.begin()
+  File "C:\Python36\lib\http\client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "C:\Python36\lib\http\client.py", line 266, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+2018-08-16 18:20:45,767 - INFO - modulesSurvery_sql - CAN NOT get published https://registry.terraform.io/v1/modules/scholzj/minikube/aws/1.2.2
+2018-08-16 18:21:03,012 - ERROR - modulesSurvery_sql - Exception Logged
+Traceback (most recent call last):
+  File "c:\Users\t-zuhu\Desktop\data code\webjob\modulesSurvery_sql.py", line 47, in get_results
+    response = urlopen(req,timeout=30).read()
+  File "C:\Python36\lib\urllib\request.py", line 223, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python36\lib\urllib\request.py", line 526, in open
+    response = self._open(req, data)
+  File "C:\Python36\lib\urllib\request.py", line 544, in _open
+    '_open', req)
+  File "C:\Python36\lib\urllib\request.py", line 504, in _call_chain
+    result = func(*args)
+  File "C:\Python36\lib\urllib\request.py", line 1361, in https_open
+    context=self._context, check_hostname=self._check_hostname)
+  File "C:\Python36\lib\urllib\request.py", line 1321, in do_open
+    r = h.getresponse()
+  File "C:\Python36\lib\http\client.py", line 1331, in getresponse
+    response.begin()
+  File "C:\Python36\lib\http\client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "C:\Python36\lib\http\client.py", line 266, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+2018-08-16 18:21:03,033 - INFO - modulesSurvery_sql - CAN NOT get published https://registry.terraform.io/v1/modules/claranet/aurora/aws/1.0.2
+2018-08-16 18:21:15,628 - ERROR - modulesSurvery_sql - Exception Logged
+Traceback (most recent call last):
+  File "c:\Users\t-zuhu\Desktop\data code\webjob\modulesSurvery_sql.py", line 47, in get_results
+    response = urlopen(req,timeout=30).read()
+  File "C:\Python36\lib\urllib\request.py", line 223, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python36\lib\urllib\request.py", line 526, in open
+    response = self._open(req, data)
+  File "C:\Python36\lib\urllib\request.py", line 544, in _open
+    '_open', req)
+  File "C:\Python36\lib\urllib\request.py", line 504, in _call_chain
+    result = func(*args)
+  File "C:\Python36\lib\urllib\request.py", line 1361, in https_open
+    context=self._context, check_hostname=self._check_hostname)
+  File "C:\Python36\lib\urllib\request.py", line 1321, in do_open
+    r = h.getresponse()
+  File "C:\Python36\lib\http\client.py", line 1331, in getresponse
+    response.begin()
+  File "C:\Python36\lib\http\client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "C:\Python36\lib\http\client.py", line 266, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+2018-08-16 18:21:15,668 - INFO - modulesSurvery_sql - CANNOT get Versions https://registry.terraform.io/v1/modules/nicholasjackson/hashicorp-suite/aws/versions
+2018-08-16 18:37:36,471 - ERROR - modulesSurvery_sql - Exception Logged
+Traceback (most recent call last):
+  File "c:\Users\t-zuhu\Desktop\data code\webjob\modulesSurvery_sql.py", line 47, in get_results
+    response = urlopen(req,timeout=30).read()
+  File "C:\Python36\lib\urllib\request.py", line 223, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python36\lib\urllib\request.py", line 526, in open
+    response = self._open(req, data)
+  File "C:\Python36\lib\urllib\request.py", line 544, in _open
+    '_open', req)
+  File "C:\Python36\lib\urllib\request.py", line 504, in _call_chain
+    result = func(*args)
+  File "C:\Python36\lib\urllib\request.py", line 1361, in https_open
+    context=self._context, check_hostname=self._check_hostname)
+  File "C:\Python36\lib\urllib\request.py", line 1321, in do_open
+    r = h.getresponse()
+  File "C:\Python36\lib\http\client.py", line 1331, in getresponse
+    response.begin()
+  File "C:\Python36\lib\http\client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "C:\Python36\lib\http\client.py", line 266, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+2018-08-16 18:37:36,498 - INFO - modulesSurvery_sql - CANNOT get Versions https://registry.terraform.io/v1/modules/jdpleiness/storage-static-website/google/versions
+2018-08-16 18:51:50,284 - ERROR - modulesSurvery_sql - Exception Logged
+Traceback (most recent call last):
+  File "c:\Users\t-zuhu\Desktop\data code\webjob\modulesSurvery_sql.py", line 47, in get_results
+    response = urlopen(req,timeout=30).read()
+  File "C:\Python36\lib\urllib\request.py", line 223, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Python36\lib\urllib\request.py", line 526, in open
+    response = self._open(req, data)
+  File "C:\Python36\lib\urllib\request.py", line 544, in _open
+    '_open', req)
+  File "C:\Python36\lib\urllib\request.py", line 504, in _call_chain
+    result = func(*args)
+  File "C:\Python36\lib\urllib\request.py", line 1361, in https_open
+    context=self._context, check_hostname=self._check_hostname)
+  File "C:\Python36\lib\urllib\request.py", line 1321, in do_open
+    r = h.getresponse()
+  File "C:\Python36\lib\http\client.py", line 1331, in getresponse
+    response.begin()
+  File "C:\Python36\lib\http\client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "C:\Python36\lib\http\client.py", line 266, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+2018-08-16 18:51:50,300 - INFO - modulesSurvery_sql - CAN NOT get published https://registry.terraform.io/v1/modules/philips-software/ecs/aws/1.2.0
+2018-08-16 19:07:12,510 - INFO - modulesSurvery_sql - module:GoogleCloudPlatform/managed-instance-group/google, today_version:[]
+2018-08-16 19:11:05,243 - INFO - modulesSurvery_sql - module:GoogleCloudPlatform/managed-instance-group/google, today_version:[]
+2018-08-16 19:12:34,986 - INFO - modulesSurvery_sql - module:GoogleCloudPlatform/managed-instance-group/google, today_version:[]
+2018-08-16 19:16:11,420 - INFO - modulesSurvery_sql - module:GoogleCloudPlatform/managed-instance-group/google, today_version:[]
+2018-08-16 19:16:39,171 - INFO - modulesSurvery_sql - module:cloudposse/rds-cluster/aws, today_version:[]
+2018-08-16 19:16:52,168 - INFO - modulesSurvery_sql - module:traveloka/autoscaling/aws, today_version:[]
+2018-08-16 19:16:53,048 - INFO - modulesSurvery_sql - module:104corp/web/aws, today_version:[]
+2018-08-16 19:16:53,105 - INFO - modulesSurvery_sql - module:trussworks/ecs-service/aws, today_version:[]
+2018-08-16 19:16:53,252 - INFO - modulesSurvery_sql - module:telia-oss/splunk-s3-bucket/aws, today_version:[]
+2018-08-16 19:16:53,260 - INFO - modulesSurvery_sql - module:dcos-terraform/dcos/aws, today_version:[]
+2018-08-16 19:16:53,268 - INFO - modulesSurvery_sql - module:Azure/loadbalancer/azurerm, today_version:[]
+2018-08-16 19:16:53,343 - INFO - modulesSurvery_sql - module:Azure/vnet/azurerm, today_version:[]
+2018-08-16 19:16:53,352 - INFO - modulesSurvery_sql - module:Azure/network-security-group/azurerm, today_version:[]
+2018-08-16 19:16:53,741 - INFO - modulesSurvery_sql - module:dcos-terraform/dcos-install-bootstrap-remote-exec/null, today_version:[]
+2018-08-16 19:16:54,242 - INFO - modulesSurvery_sql - module:dcos-terraform/dcos-core/template, today_version:[]
